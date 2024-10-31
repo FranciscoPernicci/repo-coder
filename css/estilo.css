@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, H2, h3{
+    font-family: "Protest Strike", sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 1.7rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 1.2rem;   
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    margin: 10px;
+    display: inline-block; 
+}
+a{
+    color: rgba(92, 0, 87, 0.726);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px;
+    
+    padding: 10px;
+}
+.color{
+    background-color: rgba(186, 250, 250, 0.664);
+}
+.tamano{
+    width: 362px;
+    border: pink 5px solid;
+    border-radius: 5px;
+}
+.logo{
+    text-align: center; 
+    padding: 10px; 
+}
+.logo-nav{
+    width: 60px;
+    border: rgb(0, 217, 255) solid 3px
+}
+.imglogo{
+    border: rgb(186, 250, 250) 10px solid;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(186, 250, 250);
+    color: black;
+}
+.imgUbi{
+    padding: 15px;
+    width: 800px;
+    
+}
+.imgEj{
+    width: 400px;
+    padding: 10px;
+    border: pink 5px solid;
+    border-radius: 5px;
+}
+.hora{
+    text-align: right;
+    padding: 10px;
+    width: 700px;
+    margin: 10px;
+}
+.imgM{
+    text-align: center;
+    
+}
+.imgHora{
+    text-align: center;
+    padding: 15px;
+    
+}
+.imgGral{
+    border: pink 5px solid;
+    border-radius: 5px;
+}
+.imgR{
+    width: 20px;
+    border-radius: 10px;
+}
+.redes1{
+    border: rgba(241, 204, 255, 0.479) 10px solid;
+    border-radius: 50%;
+}
