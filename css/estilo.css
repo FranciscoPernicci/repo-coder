@@ -109,3 +109,9 @@ footer{
     border: rgba(241, 204, 255, 0.479) 10px solid;
     border-radius: 50%;
 }
+@media (max-width:576px){
+    .imgUbi{
+        width: 450px;
+    }
+
+}
