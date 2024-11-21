@@ -11,8 +11,12 @@ body{
 h1{
     text-align: center;
     padding: 10px;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 3rem;
+    color: #00615cc9;
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
 }
 h2{
     text-align: center;
@@ -59,6 +63,7 @@ a{
 .logo{
     text-align: center; 
     padding: 10px; 
+    
 }
 .logo-nav{
     width: 60px;
@@ -164,4 +169,16 @@ footer{
 }
 .nav-link:hover{
     color: white;
+}
+
+@keyframes aparece {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
 }
