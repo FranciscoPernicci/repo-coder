@@ -1,0 +1,55 @@
+.imglogo{
+    border: $bordes 10px solid;
+    border-radius: 10px;
+}
+.logo{
+    text-align: center; 
+    padding: 10px;
+            
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 3rem;
+    color: $titulo;
+    animation-name: aparece;
+    animation-duration: 3s;
+    animation-iteration-count: initial;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    font-size: 1.7rem;
+    margin-top: 20px;
+}
+.logo-nav{
+    width: 60px;
+    border: $nav solid 3px
+}
+.nav-item{
+    &:hover{
+        background-color: #89cffdfa;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+.nav-link{
+    &:hover{
+        color: white;
+    }
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+    display: inline-block;
+}
+.color{
+    background-color: $bordes;
+}
+

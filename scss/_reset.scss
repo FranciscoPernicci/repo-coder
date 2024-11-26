@@ -1,0 +1,20 @@
+$claro:#e2fdff;
+$bordes:#4ef8f8a9;
+$titulo:#00615cc9;
+$nav: #00d9ff;
+$oscuro:#000000;
+$footer:#bafafa;
+$media:#92f7f2;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, H2, h3{
+    font-family: "Protest Strike", sans-serif;
+}
+body{
+    background-color: $claro;
+}
