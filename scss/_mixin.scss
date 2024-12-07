@@ -1,0 +1,9 @@
+@mixin bordeRedondeado($radio: 10px) {
+    border-radius: $radio;
+  }
+  .logo img {
+    @include bordeRedondeado(15px);
+  }
+  .navbar {
+    @include bordeRedondeado(8px);
+  }
